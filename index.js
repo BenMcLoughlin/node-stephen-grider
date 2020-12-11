@@ -12,4 +12,4 @@ app.get('/greeting', (req, res) => {
 
 const PORT = process.env.port || 5000
 
-app.listen(process.env.PORT, "0.0.0.0");
+app.listen(PORT, "0.0.0.0");
